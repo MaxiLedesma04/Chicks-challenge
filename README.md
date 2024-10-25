@@ -26,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 # Chicks-challenge
+
+## Development
+For this project, only common CSS was used to develop the styles. The responsiveness of the pages was taken into account so that users had a good view of the elements on it.
+The sample page was not copied in detail but liberties were taken in order to improve the user experience by following the proposed mock and adjusting to the time proposed for its preparation.
