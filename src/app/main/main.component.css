@@ -330,3 +330,44 @@ Por ejemplo crear otro componente "cards" y manejar las tarjetas desde ahi y que
 }
 
 /* CARDS CONTENT */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 50px;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination a {
+    display: block;
+    padding: 10px 15px;
+    background-color: #393953;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #575780;
+}
+
+.pagination .active a {
+    background-color: #4a51e0;
+}
+
+.pagination .disabled a {
+    background-color: #2c2c40;
+    color: #4a51e0;
+    cursor: not-allowed;
+}
+
+.pagination .dots {
+    color: white;
+    padding: 10px 15px;
+}
