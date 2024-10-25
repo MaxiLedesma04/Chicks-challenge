@@ -1,0 +1,94 @@
+.navbar {
+  height: 10vh;
+  background-color: rgba(48, 50, 65, 0.918);
+  color: white;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.nav-select {
+  background-color: transparent;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.navbar-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.currency-dropdown,
+.cart {
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sign-in {
+  background-color: #00bfa6;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-in:hover {
+  background-color: #00a68f;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .container {
+    justify-content: space-between;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navbar-menu,
+  .navbar-actions {
+    display: none;
+  }
+}

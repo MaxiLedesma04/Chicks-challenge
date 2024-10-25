@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(19, 23, 54, 0.8),
+      rgb(4, 5, 13)
+    ),
+    url("./assets/Lux_18.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
